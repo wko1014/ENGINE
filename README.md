@@ -22,11 +22,11 @@ To download Alzheimer's disease neuroimaging initiative dataset
 To download AlzGene database
 * http://www.alzgene.org
 
-## Citation
-TBA
-
 ## Usage
 `engine.py` contains the proposed deep learning architectures, `utils.py` contains functions used for experimental procedures, and `engine_experiment.py` contains the main experimental functions.
+
+## Citation
+TBA
 
 ## Acknowledgements
 This work was supported by National Research Foundation of Korea (NRF) grant (No. 2019R1A2C1006543) and Institute for Information & Communications Technology Promotion (IITP) grant (No. 2019-0-00079; Department of Artificial Intelligence, Korea University) funded by the Korea government.
