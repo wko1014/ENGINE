@@ -10,3 +10,20 @@ This repository provides a TensorFlow implementation of the following paper:
 > Presented in the 21st IEEE International Conference on Data Mining (ICDM2021 Acceptance rate: 20%)
 > 
 > **Abstract:** *Recently, deep learning, a branch of machine learning and data mining, has gained widespread acceptance in many applications thanks to its unprecedented successes. In this regard, pioneering studies employed deep learning frameworks for imaging genetics in virtue of their own representation caliber. But,existing approaches suffer from some limitations: (i) exploiting a simple concatenation strategy for joint analysis, (ii) a lack of extension to biomedical applications, and (iii) insufficient and inappropriate interpretations in the viewpoint of both data science and bio-neuroscience. In this work, we propose a novel deep learning framework to tackle the aforementioned issues simultaneously. Our proposed framework learns to effectively represent the neuroimaging and the genetic data jointly, and achieves state-of-the-art performance in its use for Alzheimer’s disease and mild cognitive impairment identification. Further, unlike the existing methods in the literature, the framework allows learning the relation between imaging phenotypes and genotypes in a nonlinear way without any prior neuroscientific knowledge. To demonstrate the validity of our proposed framework, we conducted experiments on a publicly available dataset and analyzed the results from diverse perspectives. Based on our experimental results, we believe that the proposed framework has a great potential to give new insights and perspectives in deep learning-based imaging genetics studies.*
+
+## Dependencies
+* [Python 3.6+](https://www.continuum.io/downloads)
+* [TensorFlow 2.2.0+](https://www.tensorflow.org/)
+
+## Downloading datasets
+To download Alzheimer's disease neuroimaging initiative dataset
+* http://www.loni.usc.edu/ADNI
+
+To download AlzGene database
+* http://www.alzgene.org
+
+## Citation
+TBA
+
+## Acknowledgements
+This work was supported by National Research Foundation of Korea (NRF) grant (No. 2019R1A2C1006543) and Institute for Information & Communications Technology Promotion (IITP) grant (No. 2019-0-00079; Department of Artificial Intelligence, Korea University) funded by the Korea government.
