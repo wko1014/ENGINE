@@ -34,7 +34,7 @@ class engine(tf.keras.Model):
             ]
         )
 
-        """Attention Mask Generation Module"""
+        """Attentive Vector Generation Module"""
         # Generator network, G
         self.generator = tf.keras.Sequential(
             [
