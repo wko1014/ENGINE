@@ -27,7 +27,7 @@ def load_dataset(fold, task, SNP_mapping=True, return_tensor=False):
     mytask = np.array(mytask)
 
     # Define the data path
-    path = './Multimodal_Data_Preparing/sorted_dataset/'
+    path = './define/your/own/path'
 
     Y_dis = np.argmax(np.load(path + 'Y_dis.npy'), axis=-1) # Disease labels, CN: 0, sMCI: 1, pMCI: 2, AD: 3
 
