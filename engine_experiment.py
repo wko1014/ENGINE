@@ -162,22 +162,7 @@ class experiment():
         print(f'Test Regression RMSE: {rmse:>.4f}')
         return
 
-for fold in range(5):
+task = ['CN', 'AD'] # ['CN', 'MCI'], ['sMCI', 'pMCI'], ['CN', 'MCI', 'AD'], ['CN', 'sMCI', 'pMCI', 'AD']
+for fold in range(5): # five-fold cross-validation
     exp = experiment(fold + 1, ['CN', 'AD'])
-    exp.training()
-
-for fold in range(5):
-    exp = experiment(fold + 1, ['CN', 'MCI'])
-    exp.training()
-
-for fold in range(5):
-    exp = experiment(fold + 1, ['sMCI', 'pMCI'])
-    exp.training()
-
-for fold in range(5):
-    exp = experiment(fold + 1, ['CN', 'MCI', 'AD'])
-    exp.training()
-
-for fold in range(5):
-    exp = experiment(fold + 1, ['CN', 'sMCI', 'pMCI', 'AD'])
     exp.training()
