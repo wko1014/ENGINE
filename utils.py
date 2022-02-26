@@ -3,6 +3,7 @@ import tensorflow as tf
 
 from sklearn.preprocessing import MinMaxScaler
 
+# Load data samples
 def load_dataset(fold, task, SNP_mapping=True, return_tensor=False):
     mytask = []
     is_MCI = False
@@ -19,7 +20,7 @@ def load_dataset(fold, task, SNP_mapping=True, return_tensor=False):
         if t == 'AD':
             mytask.append(3)
 
-        if t == 'MCI':
+        if t == 'MCI': # append sMCI and pMCI samples
             mytask.append(1)
             mytask.append(2)
             is_MCI = True
