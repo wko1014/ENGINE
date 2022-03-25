@@ -37,6 +37,7 @@ To download AlzGene database
 `engine.py` contains the proposed deep learning architectures, `utils.py` contains functions used for experimental procedures, and `engine_experiment.py` contains the main experimental functions.
 
 ## Citation
+If you find this work useful for your research, please cite our [conference proceeding](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=Fvzg1_sAAAAJ&citation_for_view=Fvzg1_sAAAAJ:0EnyYjriUFMC):
 ```
 @inproceedings{ko2021engine,
   title={ENGINE: Enhancing Neuroimaging and Genetic Information by Neural Embedding},
