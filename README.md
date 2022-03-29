@@ -51,7 +51,13 @@ If you find this work useful for your research, please cite our [conference proc
 
 and our [journal publication](https://ieeexplore.ieee.org/document/9743914):
 ```
-TBA
+@article{jeon2021mutual,
+  title={A Deep Generative–Discriminative Learning for Multi-modal Representation in Imaging Genetics},
+  author={Ko, Wonjun and Jung, Wonsik and Jeon, Eunjin and Suk, Heung-Il},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2022},
+  publisher={IEEE}
+}
 ```
 
 ## Acknowledgements
