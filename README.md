@@ -49,7 +49,7 @@ If you find this work useful for your research, please cite our [conference proc
 }
 ```
 
-and our journal publication:
+and our [journal publication](https://ieeexplore.ieee.org/document/9743914):
 ```
 TBA
 ```
