@@ -2,7 +2,7 @@
 import numpy as np
 import tensorflow as tf
 
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler # For simple neuroimaging preprocessing
 
 # Load data samples
 def load_dataset(fold, task, SNP_mapping=True, return_tensor=False):
