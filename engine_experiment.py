@@ -3,7 +3,7 @@ import utils
 import engine
 import numpy as np
 import tensorflow as tf
-import tensorflow_addons as tfa
+import tensorflow_addons as tfa # for focal cross-entropy function
 import pandas as pd
 import matplotlib.pyplot as plt
 
